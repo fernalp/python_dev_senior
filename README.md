@@ -1,4 +1,4 @@
-# Dev Senior Code - Python - Module 1
+# Dev Senior Code - Python
 
 This repository contains all the materials and resources developed during the DevSeniorCode classes, designed to guide students from the fundamentals of Python programming to advanced frameworks like Flask and Django, advanced database management, and frontend development with modern frameworks like React or Vue.js.
 
