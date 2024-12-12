@@ -1,22 +1,5 @@
 
-'''
-
-Clases
-
-Gestión De Experimentos
-    Creacion - Visualizacion
-Análisis de Resultados
-    Promedio - Maximo - Minimo - 
-    Comparación (Desempeño Relativo)
-Generación de Informe
-    Resumen de los experimentos
-    Estadisticas
-    Conclusiones
-    Opcion de Exportar en archivo txt
-Cerrar el Programa
-'''
 from datetime import datetime
-
 
 class View:
         
@@ -31,25 +14,19 @@ class View:
         message = message.capitalize() + ": "
         return input(message)
    
-    def show_main_menu(self): 
-        ## Muestra el Menu Principal
-        ## Fernando        
+    def show_main_menu(self):
         print("---Menú Principal---")
         print("1. Gestión de Experimentos")
         print("2. Análisis de Resultados")
         print("3. Generación de Informe")
         print("4. Salir Del Programa")
             
-    def show_experiment_management_menu(self): 
-        ## Muestra el Menu de agregar y mostrar experimento
-        ## Fernando  
+    def show_experiment_management_menu(self):
         print("---Menú Gestión de Experimentos---")
         print("1. Agregar Experimento")
         print("2. Ver Experimentos")
     
     def show_experiments(self, experiments):
-        ## Mostrar todos los experimentos
-        ## Fernando
         if not experiments:
             print("No hay experimentos registrados!!")
         else:
@@ -61,7 +38,6 @@ class View:
                 print(f"Resultados: {experiment.results}")
  
     def show_analysis_results(self, analysis):
-        ## Mostrar el analisis de resultados
         if not analysis:
             print("No hay Experimentos!!, por lo que no se puede realizar un análisis!")
         else:
@@ -77,7 +53,6 @@ class View:
                 print(f"Máximo: {experiment.max}")
     
     def show_generate_report(self):
-        ## Mostrar vista del reporte generado y preguntar si quiere exportarlo
         print("Vista de generar reporte")
  
     def show_error_option(self):

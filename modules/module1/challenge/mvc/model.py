@@ -1,18 +1,3 @@
-'''
-Clases
-
-Gestión De Experimentos
-    Creacion - Visualizacion
-Análisis de Resultados
-    Promedio - Maximo - Minimo - 
-    Comparación (Desempeño Relativo)
-Generación de Informe
-    Resumen de los experimentos
-    Estadisticas
-    Conclusiones
-    Opcion de Exportar en archivo txt
-Cerrar el Programa
-'''
 
 ## Abstracion de experimento
 class Experiment:
